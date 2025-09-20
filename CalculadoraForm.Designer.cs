@@ -69,7 +69,7 @@
             button1.TabIndex = 2;
             button1.Text = "7";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += btnNumero_Click;
             // 
             // button2
             // 
@@ -79,6 +79,7 @@
             button2.TabIndex = 3;
             button2.Text = "8";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += btnNumero_Click;
             // 
             // button3
             // 
@@ -88,6 +89,7 @@
             button3.TabIndex = 4;
             button3.Text = "9";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += btnNumero_Click;
             // 
             // button4
             // 
@@ -97,6 +99,7 @@
             button4.TabIndex = 5;
             button4.Text = "4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += btnNumero_Click;
             // 
             // button5
             // 
@@ -106,6 +109,7 @@
             button5.TabIndex = 6;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += btnNumero_Click;
             // 
             // button6
             // 
@@ -115,6 +119,7 @@
             button6.TabIndex = 7;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += btnNumero_Click;
             // 
             // button7
             // 
@@ -124,6 +129,7 @@
             button7.TabIndex = 8;
             button7.Text = "1";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += btnNumero_Click;
             // 
             // button8
             // 
@@ -133,6 +139,7 @@
             button8.TabIndex = 9;
             button8.Text = "2";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += btnNumero_Click;
             // 
             // button9
             // 
@@ -142,6 +149,7 @@
             button9.TabIndex = 10;
             button9.Text = "3";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += btnNumero_Click;
             // 
             // button10
             // 
@@ -151,6 +159,7 @@
             button10.TabIndex = 11;
             button10.Text = "0";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += btnNumero_Click;
             // 
             // button11
             // 
@@ -160,6 +169,7 @@
             button11.TabIndex = 12;
             button11.Text = "C";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += btnLimpar_Click;
             // 
             // button12
             // 
@@ -169,6 +179,7 @@
             button12.TabIndex = 13;
             button12.Text = "=";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += btnIgual_Click;
             // 
             // button13
             // 
@@ -178,6 +189,7 @@
             button13.TabIndex = 14;
             button13.Text = "+";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += btnOperacao_Click;
             // 
             // button14
             // 
@@ -187,6 +199,7 @@
             button14.TabIndex = 15;
             button14.Text = "-";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += btnOperacao_Click;
             // 
             // button15
             // 
@@ -194,8 +207,9 @@
             button15.Name = "button15";
             button15.Size = new Size(54, 38);
             button15.TabIndex = 16;
-            button15.Text = "X";
+            button15.Text = "x";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += btnOperacao_Click;
             // 
             // button16
             // 
@@ -205,6 +219,7 @@
             button16.TabIndex = 17;
             button16.Text = "/";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += btnOperacao_Click;
             // 
             // panel1
             // 
@@ -250,7 +265,7 @@
             button17.TabIndex = 18;
             button17.Text = "√x";
             button17.UseVisualStyleBackColor = true;
-            button17.Click += button17_Click;
+            button17.Click += bntRaiz_Click;
             // 
             // button18
             // 
@@ -258,8 +273,9 @@
             button18.Name = "square";
             button18.Size = new Size(54, 38);
             button18.TabIndex = 19;
-            button18.Text = "[x²]";
+            button18.Text = "x^y";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += btnOperacao_Click;
             // 
             // Form1
             // 
