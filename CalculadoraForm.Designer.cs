@@ -47,8 +47,8 @@
             button16 = new Button();
             panel1 = new Panel();
             groupBox1 = new GroupBox();
-            button17 = new Button();
             button18 = new Button();
+            button17 = new Button();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -153,7 +153,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(13, 226);
+            button10.Location = new Point(73, 226);
             button10.Name = "button10";
             button10.Size = new Size(54, 38);
             button10.TabIndex = 11;
@@ -163,7 +163,7 @@
             // 
             // button11
             // 
-            button11.Location = new Point(73, 226);
+            button11.Location = new Point(13, 226);
             button11.Name = "button11";
             button11.Size = new Size(54, 38);
             button11.TabIndex = 12;
@@ -225,11 +225,11 @@
             // 
             panel1.Controls.Add(groupBox1);
             panel1.Controls.Add(button16);
+            panel1.Controls.Add(button11);
             panel1.Controls.Add(button15);
             panel1.Controls.Add(button14);
             panel1.Controls.Add(button13);
             panel1.Controls.Add(button12);
-            panel1.Controls.Add(button11);
             panel1.Controls.Add(button10);
             panel1.Controls.Add(button9);
             panel1.Controls.Add(button8);
@@ -250,40 +250,40 @@
             // 
             groupBox1.Controls.Add(button18);
             groupBox1.Controls.Add(button17);
-            groupBox1.Location = new Point(13, 270);
+            groupBox1.Location = new Point(12, 270);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(234, 72);
+            groupBox1.Size = new Size(235, 72);
             groupBox1.TabIndex = 19;
             groupBox1.TabStop = false;
             groupBox1.Text = "functions";
             // 
-            // button17
-            // 
-            button17.Location = new Point(6, 22);
-            button17.Name = "squareRoot";
-            button17.Size = new Size(54, 38);
-            button17.TabIndex = 18;
-            button17.Text = "√x";
-            button17.UseVisualStyleBackColor = true;
-            button17.Click += bntRaiz_Click;
-            // 
             // button18
             // 
             button18.Location = new Point(66, 22);
-            button18.Name = "square";
+            button18.Name = "button18";
             button18.Size = new Size(54, 38);
             button18.TabIndex = 19;
             button18.Text = "x^y";
             button18.UseVisualStyleBackColor = true;
             button18.Click += btnOperacao_Click;
             // 
-            // Form1
+            // button17
+            // 
+            button17.Location = new Point(6, 22);
+            button17.Name = "button17";
+            button17.Size = new Size(54, 38);
+            button17.TabIndex = 18;
+            button17.Text = "√x";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += bntRaiz_Click;
+            // 
+            // CalculadoraForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(261, 346);
             Controls.Add(panel1);
-            Name = "Calculadora";
+            Name = "CalculadoraForm";
             Text = "Calculadora";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
