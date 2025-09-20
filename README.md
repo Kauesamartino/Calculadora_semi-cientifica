@@ -1,3 +1,10 @@
+Kauê Vinicius Samartino da Silva - RM559317
+Lucas Borges - 
+Davi Praxedes Santos Silva - RM560719
+Bruno Carlos Soares - RM559250
+João dos Santos Cardoso de Jesus - RM560400
+Pedro Henrique da Silva - RM560393
+
 # Calculadora Semi-Científica
 
 ![Calculadora](https://img.shields.io/badge/Projeto-Calculadora-blue)
