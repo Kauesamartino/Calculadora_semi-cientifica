@@ -230,7 +230,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(261, 348);
             panel1.TabIndex = 2;
-            panel1.Paint += this.panel1_Paint;
             // 
             // groupBox1
             // 
@@ -241,26 +240,25 @@
             groupBox1.Size = new Size(234, 72);
             groupBox1.TabIndex = 19;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
-            groupBox1.Enter += this.groupBox1_Enter;
+            groupBox1.Text = "functions";
             // 
             // button17
             // 
             button17.Location = new Point(6, 22);
-            button17.Name = "button17";
+            button17.Name = "squareRoot";
             button17.Size = new Size(54, 38);
             button17.TabIndex = 18;
-            button17.Text = "button17";
+            button17.Text = "√x";
             button17.UseVisualStyleBackColor = true;
             button17.Click += button17_Click;
             // 
             // button18
             // 
             button18.Location = new Point(66, 22);
-            button18.Name = "button18";
+            button18.Name = "square";
             button18.Size = new Size(54, 38);
             button18.TabIndex = 19;
-            button18.Text = "button18";
+            button18.Text = "[x²]";
             button18.UseVisualStyleBackColor = true;
             // 
             // Form1
