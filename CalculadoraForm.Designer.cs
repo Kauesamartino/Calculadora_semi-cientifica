@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class Form1
+    partial class CalculadoraForm : Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -267,8 +267,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(261, 346);
             Controls.Add(panel1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Calculadora";
+            Text = "Calculadora";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             groupBox1.ResumeLayout(false);
