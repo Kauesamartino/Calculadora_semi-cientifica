@@ -36,14 +36,6 @@ Uma calculadora semi-científica desenvolvida em C# com Windows Forms, capaz de 
 - .NET 8.0 ou superior
 - Visual Studio 2022 ou superior
 
-## Captura de Tela
-
-> Adicione aqui uma imagem da interface da calculadora após rodar o projeto.
-
-## Contribuição
-
-Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro para discutir o que você gostaria de modificar.
-
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
